@@ -111,3 +111,73 @@
     cursor: pointer;
   }
   
+
+  /* Basic styling as per your original code above */
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    max-width: 90%;
+    margin: 20px auto;
+  }
+  
+  .sidebar, .contactForm {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .header {
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .navLink {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  
+  .container {
+    margin: 20px auto;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 10px;
+  }
+
+  .container {
+    margin: 10px;
+  }
+  
+  .formTitle, .sidebarTitle {
+    font-size: 18px;
+  }
+
+  .input, .textarea {
+    font-size: 14px;
+  }
+
+  .button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
