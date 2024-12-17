@@ -9,7 +9,7 @@ const Navbar = () => {
       <header className="header">
         <div className="logo">
           {/* Use the imported 'logo' variable */}
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" style={{ width: '100px', height: 'auto' }}/>
         </div>
         <nav className="nav">
           <Link className="navLink" to="/">Home</Link>

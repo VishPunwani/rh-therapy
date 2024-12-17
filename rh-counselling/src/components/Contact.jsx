@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './Contact.css';
 import Navbar from './NavBar';
 
+
+
 const ContactPage = () => {
   return (
     <div>
